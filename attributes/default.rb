@@ -34,3 +34,7 @@ default[:ruby_build][:git_revision]   = "master"
 
 default[:rbenv_vars][:git_repository] = "https://github.com/sstephenson/rbenv-vars.git"
 default[:rbenv_vars][:git_revision]   = "master"
+
+default[:rbenv_rvm_download][:git_repository] = "https://github.com/garnieretienne/rvm-download.git"
+default[:rbenv_rvm_download][:git_revision]   = "master"
+

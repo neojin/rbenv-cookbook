@@ -9,6 +9,7 @@ recipe "rbenv", "Installs and configures rbenv"
 recipe "rbenv::ruby_build", "Installs and configures ruby_build"
 recipe "rbenv::ohai_plugin", "Installs an rbenv Ohai plugin to populate automatic_attrs about rbenv and ruby_build"
 recipe "rbenv::rbenv_vars", "Installs an rbenv plugin rbenv-vars that lets you set global and project-specific environment variables before spawning Ruby processes"
+recipe "rbenv::rvm_download", "Installs an rbenv plugin rvm_download that lets you install rubies from rvm binaries"
 
 %w{ centos redhat fedora ubuntu debian amazon oracle}.each do |os|
   supports os
